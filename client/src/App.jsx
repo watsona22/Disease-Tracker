@@ -23,10 +23,10 @@ function App() {
             <BrowserRouter>
                 <Header />
                 <div className="pages">
-                    <ScrollToTop />
+                    {/* <ScrollToTop /> */}
                     <Routes>
-                        {/* <Route path="/" element={<Homepage />} />
-                        {categoriesData.categories.map((categoryItem, index) => {
+                        <Route path="/" element={<Homepage />} />
+                        {/* {categoriesData.categories.map((categoryItem, index) => {
                             return (
                                 <Route
                                     path={categoryItem.link}
