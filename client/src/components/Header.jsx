@@ -16,17 +16,30 @@ function Header() {
 
 
     return (
+
         <div className="header-container">
             <Link to="/">
                 <h1>Disease Tracker</h1>
             </Link>
+            <h3>Raise awareness through data sharing </h3>
+
             <Link
                 to="/Data"
                 // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                 className={currentPage === '/Data' ? 'nav-link active' : 'nav-link'}
             >
                 <div className="w-100 mt-auto text-dark p-4">
-                    <p>Data</p>
+                    <li>Data</li>
+                </div>
+
+            </Link>
+            <Link
+                to="/myData"
+                // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+                className={currentPage === '/myData' ? 'nav-link active' : 'nav-link'}
+            >
+                <div className="w-100 mt-auto text-dark p-4">
+                    <li>My Data</li>
                 </div>
 
             </Link>
