@@ -1,3 +1,7 @@
-import Header from "../components/Header";
+function Data() {
+    return (
+        <h2>Data</h2>
 
+    );
+}
 export default Data;

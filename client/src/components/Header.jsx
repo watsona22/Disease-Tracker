@@ -8,9 +8,9 @@ function Header() {
     const [search, setSearch] = useState("");
     //   const { loading, data } = useQuery(GET_USER);
     // if statement below allows page to render even when loading
-    if (loading) {
-        return (<p>...</p>);
-    }
+    // if (loading) {
+    //     return (<p>...</p>);
+    // }
 
 
     return (
@@ -18,7 +18,7 @@ function Header() {
             <Link to="/">
                 <h1>Disease Tracker</h1>
             </Link>
-            <div className="login-container">
+            {/* <div className="login-container">
                 {!AuthService.loggedIn() ? (
                     <>
                         <Link to="login">
@@ -35,7 +35,7 @@ function Header() {
                         <h3 onClick={AuthService.logout}>Logout</h3>
                     </>
                 )}
-            </div>
+            </div> */}
         </div>
     );
 }

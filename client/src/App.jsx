@@ -10,6 +10,8 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Data from "./pages/Data";
 import MyData from './pages/MyData';
+import AboutUs from './pages/AboutUs';
+
 
 function App() {
     // const { loading: categoriesLoading, error: categoriesError, data: categoriesData } = useQuery(GET_CATEGORIES);
