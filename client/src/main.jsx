@@ -1,10 +1,10 @@
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import Signup from '..src/pages/Signup.jsx'
-import Login from '../src/pages/Login.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+// import Signup from '..src/pages/Signup.jsx';
+// import Login from '../src/pages/Login.jsx';
+// import './index.css';
 
 import { createContext, useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";

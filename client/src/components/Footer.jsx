@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import '../styles/footer.css'
+// import '../styles/footer.css'
 
 function Footer() {
     return (

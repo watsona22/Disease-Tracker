@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Interactive web application with live covid and flu data",
     "main": "index.js",
+    "build": "vite build",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server/server.js",
