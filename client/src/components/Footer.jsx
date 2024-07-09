@@ -1,18 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-// import '../styles/footer.css'
+import '../styles/footer.css'
 
 function Footer() {
     return (
         <div className="footer-container">
-            <h4>Disease Tracker</h4>
-
             <div className="inner-container">
                 <Link to="/about-us">
                     <h5>About</h5>
                 </Link>
 
-                <Link to="/contact">
+                <Link to="/contact-us">
                     <h5>Contact</h5>
                 </Link>
             </div>

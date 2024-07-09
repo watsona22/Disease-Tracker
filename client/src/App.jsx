@@ -11,6 +11,7 @@ import Signup from "./pages/Signup";
 import Data from "./pages/Data";
 import MyData from './pages/MyData';
 import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     return (
         <div className="main-container">
             <BrowserRouter>
-                <Header />
+                {/* <Header /> */}
                 <div className="pages">
                     {/* <ScrollToTop /> */}
                     <Routes>
@@ -50,13 +51,14 @@ function App() {
                         ))} */}
 
                         <Route path="/about-us" element={<AboutUs />} />
+                        <Route path="/contact-us" element={<ContactUs />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/sign-up" element={<Signup />} />
                         <Route path="/my-data" element={<MyData />} />
                         <Route path="/data" element={<Data />} />
                     </Routes>
                 </div>
-                <Footer />
+                {/* <Footer /> */}
             </BrowserRouter>
         </div>
     );

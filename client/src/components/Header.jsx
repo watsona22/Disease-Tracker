@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 
 function Header() {
-    const [search, setSearch] = useState("");
+    // const [search, setSearch] = useState("");
     //   const { loading, data } = useQuery(GET_USER);
     // if statement below allows page to render even when loading
     // if (loading) {
