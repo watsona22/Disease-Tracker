@@ -361,6 +361,16 @@ footer div ul li {
 
 }
 
+styles {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
 
 /*media properties insured responsive design at varying sizes*/
 
